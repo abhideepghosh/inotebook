@@ -3,6 +3,7 @@ const User = require("../models/User");
 const router = express.Router();
 const { body, validationResult } = require("express-validator");
 
+// Create User, No Login Required
 router.post(
   "/",
   [
