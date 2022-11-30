@@ -86,7 +86,7 @@ const NoteState = (props) => {
   };
 
   // Edit A Note
-  const editNote = () => {};
+  const editNote = (id, title, description, tag) => {};
 
   return (
     <NoteContext.Provider value={{ notes, addNote, deleteNote, editNote }}>
