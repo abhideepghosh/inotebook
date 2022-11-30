@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const NavBar = () => {
   let location = useLocation();
-
-  useEffect(() => {
-    // Google Analytics
-    console.log(location.pathname);
-  }, [location]);
 
   return (
     <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
